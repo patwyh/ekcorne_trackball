@@ -4,5 +4,6 @@
 #define VIAL_UNLOCK_COMBO_ROWS {0, 0}
 #define VIAL_UNLOCK_COMBO_COLS {0, 1}
 
-/* Quantum Painter setting */
-#define QUANTUM_PAINTER_SUPPORTS_NATIVE_COLORS TRUE // <-追記
+#define POINTING_DEVICE_AUTO_MOUSE_ENABLE
+// only required if not setting mouse layer elsewhere
+#define AUTO_MOUSE_DEFAULT_LAYER 4

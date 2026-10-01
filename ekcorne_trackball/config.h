@@ -21,11 +21,12 @@
 #define SPI_MISO_PIN  GP4
 
 #define PMW33XX_CS_PIN      GP5    
-#define PMW3389_CPI         6000  // Sets default tracking speed 
+#define PMW3389_CPI         1000  // Sets default tracking speed 
 #define POINTING_DEVICE_INVERT_Y
 #define POINTING_DEVICE_ROTATION_270
 
 #define POINTING_DEVICE_RIGHT
 #define SPLIT_POINTING_ENABLE
 
+#define AUTO_MOUSE_DEFAULT_LAYER 4
 //#define MASTER_RIGHT
